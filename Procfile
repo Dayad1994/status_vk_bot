@@ -1,0 +1,1 @@
+web: python vk_status_bot.py
