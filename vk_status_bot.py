@@ -28,7 +28,7 @@ def send_message(message):
 while True:
     if get_status(user_id=80711619) == 1:
         send_message('online')
+        break
     else:
         send_message('offline')
-        break
-    time.sleep(20)
+    time.sleep(120)
