@@ -3,9 +3,11 @@ import requests
 import telegram
 import time
 
+from dotenv import load_dotenv
+load_dotenv()
 
-vk_token = "30e770f3e68d44887769e5a60756a9c7aa45ad957275a6fb10fec086944c4cbcffdae81a9d6a45b787d00"
-bot_token = "5243422478:AAGc4_4OTKOleqdwAYRRnDHovbK0zVtImso"
+vk_token = os.getenv('vk_token')
+bot_token = os.getenv('bot_token')
 chat_id = '576415473'
 
 
